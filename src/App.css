@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  background-color: #098dc2;
+}
+.box {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+section {
+  display: flex;
+}
+section aside {
+  width: 200px;
+}
+section article {
+  flex: 1;
+  min-height: 400px;
+}
+
+.theme-light {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.theme-dark {
+  background-color: #333;
+  color: white;
+  border: 1px solid #999;
+}
+
+button {
+  background-color: red;
+  padding: 15px;
+  border: 1px solid black;
+}
